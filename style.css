@@ -1,0 +1,274 @@
+
+nav{
+    background-color: black;
+    padding: 20px 0 ;
+}
+
+nav li{
+    list-style-type: none;
+    padding: 0 14px;
+    color: white;
+    
+
+}
+
+nav h5{
+    margin: auto;
+    font-size: larger;
+}
+nav input{
+    background-color: black;
+    border: 0.25px solid grey;
+    border-radius: 1px;
+}
+nav input::placeholder{
+    padding-left: 15px;
+}
+nav ul{
+    margin: 0%;
+} 
+
+nav h5{
+    color: white;
+}
+
+.nav-arrow-1{
+    border: 2px solid grey;
+    border-radius: 100%;
+    color: grey;
+    font-size:9px ;
+    font-weight: 900;    
+    padding: 3px;
+    margin-left: 6px;  
+}
+
+
+.nav-arrow-2{
+    font-size:x-small ;
+    color: grey;
+}
+.live{
+    border: 1px solid #f64137;
+    font-size: .65em;
+    padding: 0% 4px;
+}
+.live:hover{
+    border: 1px solid #f64137;
+    color: #ffffff;
+    background-color: #f64137;
+    font-size: .65em;
+    padding: 0% 4px;
+}
+
+@media (max-width:1152px) {
+    .nav-left{
+        display: block !important;
+    }
+
+    .nav-right{
+        display: block !important;
+    }
+
+    .nav-left-main{
+        display: none !important;
+    }
+
+    .nav-right-main{
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+.slider img{ 
+    
+    width: 100%;
+    height: 90vh;
+    object-fit:cover;
+    
+}
+
+.slider-img{
+    position: absolute;
+}
+
+
+
+.slider-text{
+    padding-top: 100px;
+    position: relative;
+    top: -700x;
+    height: 90vh;
+    background: linear-gradient(65.99deg,#000 0,transparent 99.04%);
+    overflow: auto; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d4000000",endColorstr="#00000000",GradientType=1);
+    
+}
+
+.slider h1{
+    font-weight: 700 !important;
+}
+
+.slider h1,p{
+    color: white;
+}
+
+.slider button{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.slider-card {
+    border-top:1px solid ;
+    border-color:rgb(111, 111, 111) ;
+}
+.slider-text-lower p{
+    color: #ffffff;
+    
+}
+
+
+
+.small{
+    font-style: normal;
+    font-weight: 500;
+    font-size: .5rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 12px;
+
+}
+
+.arrow-1{
+    background-color: #f64137;
+    border-radius: 100%;
+    font-size: small;
+    padding: 5px;
+    color: #ffffff;
+}
+
+@media (max-width:370px) {
+    .slider-card{
+        display: none;
+    }
+
+}
+
+
+
+
+
+.section-1-main-heading h1{
+    font-weight: 600 ;
+}
+
+.small{
+    text-transform: uppercase !important;
+}
+
+
+
+.section-1-card-1{
+    height: 400px;
+    position: relative;
+    /* background-color:black; 
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/01/ksc-20231204-ph-kls01-0027large.jpg?resize=800,1200);
+    filter: opacity(40%) ; */
+}
+
+.section-1-card-2{
+    height: 190px;
+    position: relative;
+    /* background-color:black; 
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/01/ksc-20231204-ph-kls01-0027large.jpg?resize=800,1200);
+    filter: opacity(40%) ; */
+}
+
+.section-1-card-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-1-heading{
+    padding: 50px 0;
+}
+
+.section-1-card-text{
+    background: linear-gradient(65.99deg,#000 0,transparent 99.04%);
+    max-width: 100%;
+    height: 100%;
+    padding: 20px 30px;
+    position:absolute;
+}
+
+.bookmark{
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    padding:3px 2px 3px 5px;
+    color: #ffffff;
+    
+}
+
+
+/* .section-1-main{
+    flex-direction: column !important;
+    background-color: #000;
+} */
+
+
+
+@media (max-width:1200px) {
+    .section-1-main{
+        flex-direction: column !important;
+        overflow: hidden;
+        
+    }
+
+
+    
+}
+
+
+@media (max-width: 767.98px) {
+    .section-1-sub-bottom-right{
+        flex-direction: column;
+    }
+    .section-1-sub-bottom-right-sub{
+        padding-bottom: 15px;
+
+    }
+    .section-1-sub-bottom{
+        flex-direction: column;
+    }
+    .section-1-sub-bottom-left{
+        margin-right: 0% !important;
+        margin-bottom: 15px;
+    }
+}
+
+
+.small2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: .6rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    color: #58585b;
+    padding-bottom: 12px;
+
+}
+
+.bookmark2{
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    
+    color: #58585b;
+    
+}
